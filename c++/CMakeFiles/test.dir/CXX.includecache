@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jed/cst486/c++/gl.h
+cstdlib
+-
+iostream
+-
+opencv2/opencv.hpp
+-
+opencv2/opencv_modules.hpp
+-
+opencv2/highgui.hpp
+-
+vector
+-
+wiringPi.h
+-
+wiringSerial.h
+-
+
+/home/jed/cst486/c++/glmain.cpp
+gl.h
+/home/jed/cst486/c++/gl.h
+
